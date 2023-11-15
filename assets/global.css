@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(185, 185, 185);
+}
+
+.container {
+    background-color: aliceblue;
+    margin: auto;
+    width: 1466px;
+    height: 1025px;
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: 218px repeat(4, 1fr);
+    grid-template-rows: 56px repeat(3, 300px);
+    grid-template-areas: "header header header header header"
+                        "sidebar content1 content2 content3 content4"
+                        "sidebar content5 content6 content7 content8"
+                        "sidebar content9 content10 content11 content12";
+}
+
+.header{
+    grid-area: header;
+    background-color: white;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: palegreen;
+}
+
+.content1{
+    grid-area: content1;
+    margin: 10px;
+}
+
+.content2{
+    grid-area: content2;
+    margin: 10px;
+}
+.content3{
+    grid-area: content3;
+    margin: 10px;
+}
+
+.content4{
+    grid-area: content4;
+    margin: 10px;
+}
+.content5{
+    grid-area: content5;
+    margin: 10px;
+}
+
+.content6{
+    grid-area: content6;
+    margin: 10px;
+}
+.content7{
+    grid-area: content7;
+    margin: 10px;
+}
+
+.content8{
+    grid-area: content8;
+    margin: 10px;
+}
+.content9{
+    grid-area: content9;
+    margin: 10px;
+}
+
+.content10{
+    grid-area: content10;
+    margin: 10px;
+}
+.content11{
+    grid-area: content11;
+    margin: 10px;
+}
+
+.content12{
+    grid-area: content12;
+    margin: 10px;
+}
